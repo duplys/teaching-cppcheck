@@ -9,19 +9,19 @@ To build the image from the source, issue:
 ```shell
 git clone https://github.com/jubnzv/cppcheck-docker
 cd cppcheck-docker
-docker build -t jubnzv1/cppcheck .
+docker build -t jubnzv-cppcheck .
 ```
 
 To use the image, simply do:
 
 ```shell
-docker run --rm -t -v $(pwd):/src jubnzv1/cppcheck
+docker run --rm -t -v $(pwd):/src jubnzv-cppcheck
 ```
 
 or something like
 
 ```shell
-docker run --rm -t -v $(pwd):/src jubnzv1/cppcheck --addon=misra.py
+docker run --rm -t -v $(pwd):/src jubnzv1-cppcheck --addon=misra.py
 ```
 
 if you want to pass optional arguments to `cppcheck`. 

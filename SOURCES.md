@@ -1,0 +1,11 @@
+https://github.com/HexHive/magma
+https://github.com/FFmpeg/FFmpeg.git
+https://github.com/curl/curl.git
+https://github.com/ruby/ruby
+https://github.com/mpv-player/mpv
+https://github.com/OpenRCT2/OpenRCT2
+https://github.com/jedisct1/libsodium
+https://github.com/systemd/systemd
+https://github.com/videolan/vlc
+https://github.com/TheAlgorithms/C
+https://github.com/RIOT-OS/RIOT
